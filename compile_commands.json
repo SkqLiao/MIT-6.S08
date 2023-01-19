@@ -1,0 +1,28 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/riscv64-linux-gnu-gcc",
+      "-Wall",
+      "-Werror",
+      "-O",
+      "-fno-omit-frame-pointer",
+      "-ggdb",
+      "-DSOL_SYSCALL",
+      "-DLAB_SYSCALL",
+      "-mcmodel=medany",
+      "-ffreestanding",
+      "-fno-common",
+      "-mno-relax",
+      "-I.",
+      "-fno-stack-protector",
+      "-fno-pie",
+      "-c",
+      "-o",
+      "kernel/proc.o",
+      "kernel/proc.c"
+    ],
+    "directory": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08",
+    "file": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/proc.c",
+    "output": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/proc.o"
+  }
+]
