@@ -18,11 +18,11 @@
       "-fno-pie",
       "-c",
       "-o",
-      "kernel/proc.o",
-      "kernel/proc.c"
+      "kernel/sysproc.o",
+      "kernel/sysproc.c"
     ],
     "directory": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08",
-    "file": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/proc.c",
-    "output": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/proc.o"
+    "file": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/sysproc.c",
+    "output": "/mnt/c/Users/SkqLiao/Desktop/MIT-6.S08/kernel/sysproc.o"
   }
 ]
