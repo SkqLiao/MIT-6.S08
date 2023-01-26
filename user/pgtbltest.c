@@ -7,9 +7,7 @@
 void ugetpid_test();
 void pgaccess_test();
 
-int
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
   ugetpid_test();
   pgaccess_test();
   printf("pgtbltest: all tests succeeded\n");
@@ -18,16 +16,12 @@ main(int argc, char *argv[])
 
 char *testname = "???";
 
-void
-err(char *why)
-{
+void err(char *why) {
   printf("pgtbltest: %s failed: %s, pid=%d\n", testname, why, getpid());
   exit(1);
 }
 
-void
-ugetpid_test()
-{
+void ugetpid_test() {
   int i;
 
   printf("ugetpid_test starting\n");
@@ -48,9 +42,7 @@ ugetpid_test()
   printf("ugetpid_test: OK\n");
 }
 
-void
-pgaccess_test()
-{
+void pgaccess_test() {
   char *buf;
   unsigned int abits;
   printf("pgaccess_test starting\n");
