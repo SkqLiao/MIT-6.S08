@@ -92,6 +92,7 @@ int sys_sigalarm() {
 }
 
 int sys_sigreturn(void) {
+  myproc()->cur_alarm_ticks = 0; // 清零计数器
   memmove(myproc()->trapframe, myproc()->alarm_trapframe,
           sizeof(struct trapframe));
   myproc()->alarm_enabled = 1;

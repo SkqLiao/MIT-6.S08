@@ -76,7 +76,6 @@ void usertrap(void) {
         p->alarm_trapframe = (struct trapframe *)kalloc();
         memmove(p->alarm_trapframe, p->trapframe, sizeof(struct trapframe));
         p->trapframe->epc = p->alarm_handler;
-        p->cur_alarm_ticks = 0;
       }
     }
   }
