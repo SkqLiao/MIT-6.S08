@@ -22,3 +22,7 @@ xv6.out*
 submissions/
 ph
 barrier
+.cache/
+.clang-format
+compile_commands.json
+compile_commands.events.json
