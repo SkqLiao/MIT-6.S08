@@ -24,3 +24,5 @@ ph
 barrier
 /lab-*.json
 .DS_Store
+.cache
+compile_commands.json
